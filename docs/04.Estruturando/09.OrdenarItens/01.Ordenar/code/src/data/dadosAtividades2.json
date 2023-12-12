@@ -1,0 +1,163 @@
+[
+    {
+        "ticketId": 12346,
+        "dataDeCriacao": "2023-12-10T08:30:00Z",
+        "dataDeInicio": "2023-12-11T09:00:00Z",
+        "prazo": "2023-12-15T16:00:00Z",
+        "descricao": "Falha no sistema de ar-condicionado do escritório.",
+        "enderecoDeAtendimento": {
+            "rua": "Avenida Central",
+            "numero": "101",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "11025-000"
+        },
+        "resumo": "Manutenção do sistema de ar-condicionado.",
+        "status": "Aberto"
+    },
+    {
+        "ticketId": 12347,
+        "dataDeCriacao": "2023-12-12T10:20:00Z",
+        "dataDeInicio": "2023-12-13T11:00:00Z",
+        "prazo": "2023-12-17T17:00:00Z",
+        "descricao": "Erro no processamento de pagamentos online.",
+        "enderecoDeAtendimento": {
+            "rua": "Rua da Tecnologia",
+            "numero": "500",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "cep": "22031-000"
+        },
+        "resumo": "Correção de falhas no sistema de pagamentos.",
+        "status": "Em andamento"
+    },
+    {
+        "ticketId": 12348,
+        "dataDeCriacao": "2023-12-14T09:45:00Z",
+        "dataDeInicio": "2023-12-15T10:30:00Z",
+        "prazo": "2023-12-20T18:00:00Z",
+        "descricao": "Atualização do software de gestão de clientes.",
+        "enderecoDeAtendimento": {
+            "rua": "Avenida dos Negócios",
+            "numero": "300",
+            "cidade": "Belo Horizonte",
+            "estado": "MG",
+            "cep": "30120-000"
+        },
+        "resumo": "Implementação da nova versão do software CRM.",
+        "status": "Fechado"
+    },
+    {
+        "ticketId": 12349,
+        "dataDeCriacao": "2023-12-16T07:15:00Z",
+        "dataDeInicio": "2023-12-17T08:00:00Z",
+        "prazo": "2023-12-22T17:00:00Z",
+        "descricao": "Problema de vazamento na tubulação do banheiro.",
+        "enderecoDeAtendimento": {
+            "rua": "Rua das Flores",
+            "numero": "75",
+            "cidade": "Curitiba",
+            "estado": "PR",
+            "cep": "80020-180"
+        },
+        "resumo": "Inspeção e reparo de tubulação.",
+        "status": "Aberto"
+    },
+    {
+        "ticketId": 12350,
+        "dataDeCriacao": "2023-12-18T11:00:00Z",
+        "dataDeInicio": "2023-12-19T12:00:00Z",
+        "prazo": "2023-12-25T18:00:00Z",
+        "descricao": "Reclamação de ruído excessivo em equipamento de escritório.",
+        "enderecoDeAtendimento": {
+            "rua": "Avenida Paulista",
+            "numero": "2000",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "01310-200"
+        },
+        "resumo": "Avaliação e manutenção de equipamento de escritório.",
+        "status": "Em andamento"
+    },
+    {
+        "ticketId": 12351,
+        "dataDeCriacao": "2023-12-20T14:30:00Z",
+        "dataDeInicio": "2023-12-21T15:00:00Z",
+        "prazo": "2023-12-26T16:00:00Z",
+        "descricao": "Solicitação de upgrade de plano de internet.",
+        "enderecoDeAtendimento": {
+            "rua": "Rua do Comércio",
+            "numero": "450",
+            "cidade": "Porto Alegre",
+            "estado": "RS",
+            "cep": "90020-120"
+        },
+        "resumo": "Análise e implementação de upgrade de internet.",
+        "status": "Fechado"
+    },
+    {
+        "ticketId": 12352,
+        "dataDeCriacao": "2023-12-22T09:20:00Z",
+        "dataDeInicio": "2023-11-23T10:10:00Z",
+        "prazo": "2023-11-28T17:00:00Z",
+        "descricao": "Interrupção inesperada do serviço de hospedagem de site.",
+        "enderecoDeAtendimento": {
+            "rua": "Boulevard Central",
+            "numero": "100",
+            "cidade": "Recife",
+            "estado": "PE",
+            "cep": "50030-230"
+        },
+        "resumo": "Diagnóstico e resolução de problemas de hospedagem.",
+        "status": "Aberto"
+    },
+    {
+        "ticketId": 12353,
+        "dataDeCriacao": "2023-12-24T12:40:00Z",
+        "dataDeInicio": "2023-12-25T13:30:00Z",
+        "prazo": "2023-12-30T18:00:00Z",
+        "descricao": "Falha no sistema de segurança eletrônica.",
+        "enderecoDeAtendimento": {
+            "rua": "Avenida das Indústrias",
+            "numero": "750",
+            "cidade": "Fortaleza",
+            "estado": "CE",
+            "cep": "60010-280"
+        },
+        "resumo": "Reparo no sistema de segurança e câmeras.",
+        "status": "Em andamento"
+    },
+    {
+        "ticketId": 12354,
+        "dataDeCriacao": "2023-12-26T15:50:00Z",
+        "dataDeInicio": "2023-12-27T16:20:00Z",
+        "prazo": "2023-05-02T17:00:00Z",
+        "descricao": "Solicitação de treinamento para novo software.",
+        "enderecoDeAtendimento": {
+            "rua": "Rua dos Desenvolvedores",
+            "numero": "300",
+            "cidade": "Brasília",
+            "estado": "DF",
+            "cep": "70120-250"
+        },
+        "resumo": "Organização e realização de sessões de treinamento.",
+        "status": "Fechado"
+    },
+    {
+        "ticketId": 12355,
+        "dataDeCriacao": "2023-12-28T17:05:00Z",
+        "dataDeInicio": "2023-12-29T18:00:00Z",
+        "prazo": "2023-05-05T19:00:00Z",
+        "descricao": "Revisão anual de conformidade de software.",
+        "enderecoDeAtendimento": {
+            "rua": "Alameda Tech",
+            "numero": "420",
+            "cidade": "Campinas",
+            "estado": "SP",
+            "cep": "13083-970"
+        },
+        "resumo": "Auditoria e avaliação de conformidade de software.",
+        "status": "Aberto"
+    }
+]
+
