@@ -1,4 +1,6 @@
-const styles = StyleSheet.create({
+import { StyleSheet } from 'react-native';
+
+const AtividadesEstilo = StyleSheet.create({
     itemContainer: {
         backgroundColor: '#f9f9f9',
         padding: 15,
@@ -51,3 +53,5 @@ const styles = StyleSheet.create({
         paddingRight: 10,
     },
 });
+
+export default AtividadesEstilo;
