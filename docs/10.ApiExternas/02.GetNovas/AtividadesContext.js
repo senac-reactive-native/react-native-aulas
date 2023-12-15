@@ -1,6 +1,7 @@
 import React, { createContext, useState, useContext, useEffect, useRef } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
+import PushNotification from 'react-native-push-notification';
 
 const AtividadesContext = createContext();
 
@@ -30,6 +31,12 @@ export const AtividadesProvider = ({ children }) => {
                 const atividadesAtualizadas = [...atividades, ...novasAtividades];
                 setAtividades(atividadesAtualizadas);
                 await AsyncStorage.setItem('listaDeAtividades2', JSON.stringify(atividadesAtualizadas));
+
+                PushNotification.localNotification({
+                    title: "Novas Atividades",
+                    message: "Você tem novas atividades!",
+                    // outros parâmetros conforme necessário
+                });
             }
         } catch (error) {
             console.error("Erro ao carregar atividades da API:", error);
